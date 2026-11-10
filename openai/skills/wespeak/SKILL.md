@@ -80,7 +80,11 @@ effects, and keep requests to the intended scenario. A request to test does not
 authorize creating a real booking/payment record or contacting a guest; obtain
 specific authorization for those effects. For a read-only review, instruct the
 knowledge delegate not to run tests, and use stored conversation evidence rather
-than automatically invoking the diagnostic agent.
+than automatically invoking the diagnostic agent. Agents whose account restricts
+contact access must ask a supervisor to run `analyzeAssistantError`; its internal
+trace readers do not support assignment restrictions. They can still report a
+reply in a conversation they can access, when they ask to: base the
+`reportToOperations` summary on their own explanation instead of a diagnosis.
 
 Examples in the references use fictional names and IDs. Replace them with values
 from the current account and the user's requested dates; never execute an example

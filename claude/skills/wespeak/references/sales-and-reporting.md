@@ -1,7 +1,7 @@
 # Sales and reporting
 
-Funnel and metrics tools require supervisor or higher. `lookupReservation` is
-available to agents and higher, but additionally requires WeSpeak Payments access.
+Funnel, metrics and `lookupReservation` tools require supervisor or higher.
+`lookupReservation` additionally requires WeSpeak Payments access.
 
 ## `getFunnelConfig`
 

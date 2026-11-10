@@ -126,8 +126,12 @@ This creates a **real support ticket** in WeSpeak's operations queue, visible to
 the hotel under `/tickets`. It also sends a real confirmation email to the
 hotel's own ticket recipients and raises an alert in the hotel's panel. Use it
 after analysis and only with an explicit request or confirmation to report that
-issue. Pass `conversationId`, exact `assistantMessage`, the diagnosis-based
-`summary`, `category`, `type` and `priority`. Include `messageId` only when
+issue. When `analyzeAssistantError` answers that a supervisor must run it (an
+agent whose account restricts contact access), the user can still report the
+reply: base the `summary` on their own explanation instead of a diagnosis, with
+no inferred cause. Pass `conversationId`, exact `assistantMessage`, the
+`summary` (diagnosis-based whenever a diagnosis exists), `category`, `type` and
+`priority`. Include `messageId` only when
 known: it is the **guest message that prompted the reply**, not the assistant
 message's ID. Copy it exactly; omit a blank/unavailable ID.
 

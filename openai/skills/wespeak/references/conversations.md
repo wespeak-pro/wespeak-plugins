@@ -2,6 +2,9 @@
 
 Read tools are available to agents and higher roles. `manageConversation` requires
 supervisor or higher. Availability in the current connection is authoritative.
+When the account restricts agent contacts, agents can search, read and report
+only conversations assigned to them or unassigned. Caller-supplied assignment
+filters cannot widen that access.
 
 ## `searchConversations`
 
