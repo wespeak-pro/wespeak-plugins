@@ -1,0 +1,16 @@
+WeSpeak plugin distribution license notice
+
+The license and its exact scope for each plugin bundle are stated in:
+
+- claude/LICENSE
+- openai/LICENSE
+
+Those files contain the scoped MIT grant for the skill files and plugin
+configuration and metadata identified there. This root notice does not
+extend or replace either bundle's license.
+
+Logos, icons, other images, trademarks, and all materials outside the stated
+scope are excluded from that grant. No trademark rights are granted.
+The WeSpeak platform, remote MCP server implementation, and hosted services
+are not licensed by these plugin bundles. Access to WeSpeak services remains
+subject to their separate terms and account permissions.
