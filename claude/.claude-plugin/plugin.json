@@ -1,0 +1,27 @@
+{
+  "name": "wespeak",
+  "version": "0.1.0",
+  "description": "Use your hotel's WeSpeak workspace to review guest conversations, follow up on leads, analyze results, and manage assistant knowledge and settings with your existing permissions.",
+  "author": {
+    "name": "WeSpeak",
+    "url": "https://www.wespeak.pro/"
+  },
+  "homepage": "https://www.wespeak.pro/",
+  "license": "MIT",
+  "keywords": [
+    "wespeak",
+    "hospitality",
+    "hotels",
+    "guest-conversations",
+    "leads",
+    "hotel-assistant",
+    "whatsapp"
+  ],
+  "displayName": "WeSpeak",
+  "icon": "./assets/icon.png",
+  "supportUrl": "https://www.wespeak.pro/docs/soporte/",
+  "privacyPolicyUrl": "https://www.wespeak.pro/avisodeprivacidad/",
+  "termsOfServiceUrl": "https://www.wespeak.pro/terminosycondiciones/",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

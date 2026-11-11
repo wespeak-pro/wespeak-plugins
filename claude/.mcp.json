@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "wespeak": {
+      "type": "http",
+      "url": "https://app.wespeak.pro/api/mcp/mcp",
+      "oauth": {
+        "clientId": "8b38d6a763304c6abe66e82e0d4bea44"
+      }
+    }
+  }
+}
